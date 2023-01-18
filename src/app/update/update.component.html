@@ -1,0 +1,96 @@
+<div class="container py-5 h-100" style="background-image: url('../assets/images/image2.jpg'); background-size: 100vw;" >
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Update Form</h3>
+             <div *ngIf="dataloaded"> 
+            <form [formGroup]="editProductForm" class="row g-3" (submit)="updateformdata()">
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" class="form-control form-control-lg"  id="inputId4" formControlName="productId">
+                    <label class="form-label" for="firstName">productId</label>
+
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" class="form-control form-control-lg"  id="inputName4" formControlName="productName">
+                    <label class="form-label" for="lastName">productName</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                  <div class="form-outline datepicker w-100">
+                    <input type="text" class="form-control form-control-lg" id="inputCode"
+                      placeholder="tbx-0028" formControlName="productCode">
+                    <label for="productCode" class="form-label">productCode</label>
+                  </div>
+
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                    <div class="form-outline datepicker w-100">
+                      <input type="date" class="form-control form-control-lg" id="inputdate"
+                         formControlName="releaseDate">
+                      <label for="productCode" class="form-label">releaseDate</label>
+                    </div>
+                  </div>
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-check form-check-inline">
+
+                    <input type="text" class="form-control form-control-lg" id="inputprice" 
+                      placeholder="$8.30" formControlName="price">
+                    <label class="form-label" for="price">price</label>
+                  </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+
+                  <select id="inputrating" class="select form-control-lg"  formControlName="starRating">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                    <option value="4">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                  </select>
+                  <label class="form-label select-label">starRating</label>
+
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-4 pb-2">
+
+                <div class="form-outline">
+                  <label class="form-label" for="image">ImgUrl</label>
+
+                  <input type="text" class="form-control form-control-lg" id="inputimg" formControlName="ImgUrl">
+                </div>
+
+              </div>
+              <div class="mt-4 pt-2">
+                <button class="btn btn-info btn-md">Submit</button>
+              </div>
+            </form>
+        </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,345 @@
+[
+    {
+        "productId": 11,
+        "productName": "Close Up",
+        "productCode": "TBX-0028",
+        "releaseDate": "04-05-2016",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "Amul",
+        "productCode": "TBX-0048",
+        "releaseDate": "04-05-2021",
+        "price": 8.1,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+   
+    {
+        "productId": 12,
+        "productName": "Airtel",
+        "productCode": "TBX-0012",
+        "releaseDate": "04-05-2016",
+        "price": 8.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 13,
+        "productName": "State Bank of India",
+        "productCode": "TBX-0148",
+        "releaseDate": "04-05-2016",
+        "price": 4.9,
+        "starRating": 3.5,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 14,
+        "productName": "Clinic Plus",
+        "productCode": "TBX-0118",
+        "releaseDate": "04-05-2016",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 15,
+        "productName": "Pond’s",
+        "productCode": "TBX-008",
+        "releaseDate": "04-05-2016",
+        "price":6.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 16,
+        "productName": "Life Insurance Corporation of India",
+        "productCode": "TBX-0144",
+        "releaseDate": "04-05-2016",
+        "price": 5.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 17,
+        "productName": "Horlicks",
+        "productCode": "TBX-0078",
+        "releaseDate": "04-05-2016",
+        "price": 8.0,
+        "starRating": 4.2,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 18,
+        "productName": "Harpic",
+        "productCode": "TBX-0046",
+        "releaseDate": "04-05-2016",
+        "price": 8.1,
+        "starRating": 2.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 3,
+        "productName": "Colgate",
+        "productCode": "TBX-0088",
+        "releaseDate": "04-05-2016",
+        "price": 4.8,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 4,
+        "productName": "Horlicks",
+        "productCode": "TBX-0108",
+        "releaseDate": "04-05-2016",
+        "price": 5.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 5,
+        "productName": "Lux",
+        "productCode": "TBX-0068",
+        "releaseDate": "04-05-2016",
+        "price": 8.2,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 6,
+        "productName": "Lifebuoy",
+        "productCode": "TBX-0100",
+        "releaseDate": "04-05-2016",
+        "price": 4.7,
+        "starRating": 5.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 7,
+        "productName": "Dettol India",
+        "productCode": "TBX-0098",
+        "releaseDate": "04-05-2016",
+        "price": 7.4,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 8,
+        "productName": "Pepsodent",
+        "productCode": "TBX-0041",
+        "releaseDate": "04-05-2016",
+        "price": 10,
+        "starRating": 4.4,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 9,
+        "productName": "Britannia",
+        "productCode": "TBX-0115",
+        "releaseDate": "04-05-2016",
+        "price": 9.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 10,
+        "productName": "Reliance Communications",
+        "productCode": "TBX-0028",
+        "releaseDate": "04-05-2016",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 19,
+        "productName": "Colgate",
+        "productCode": "TBX-0117",
+        "releaseDate": "04-05-2016",
+        "price": 11.9,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 20,
+        "productName": "Horlicks",
+        "productCode": "TBX-0075",
+        "releaseDate": "04-05-2016",
+        "price": 6.3,
+        "starRating": 4.2,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 21,
+        "productName": "Horlicks",
+        "productCode": "TBX-0021",
+        "releaseDate": "04-05-2016",
+        "price": 8.5,
+        "starRating": 4.8,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 22,
+        "productName": "Honda",
+        "productCode": "TBX-0123",
+        "releaseDate": "04-05-2016",
+        "price": 4.7,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 23,
+        "productName": "Hero",
+        "productCode": "TBX-0178",
+        "releaseDate": "04-05-2016",
+        "price": 4.1,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 24,
+        "productName": "Elcos",
+        "productCode": "TBX-0548",
+        "releaseDate": "04-05-2016",
+        "price": 12.6,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 25,
+        "productName": "Prestige",
+        "productCode": "TBX-0425",
+        "releaseDate": "04-05-2016",
+        "price": 7.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 26,
+        "productName": "Colgate",
+        "productCode": "TBX-0148",
+        "releaseDate": "04-05-2016",
+        "price": 4.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 27,
+        "productName": "Horlicks",
+        "productCode": "TBX-0028",
+        "releaseDate": "04-05-2018",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 28,
+        "productName": "Amul",
+        "productCode": "TBX-0048",
+        "releaseDate": "04-05-2015",
+        "price": 8.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 29,
+        "productName": "Colgate",
+        "productCode": "TBX-0148",
+        "releaseDate": "04-07-2018",
+        "price": 4.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 30,
+        "productName": "Horlicks",
+        "productCode": "TBX-0028",
+        "releaseDate": "04-06-2012",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 31,
+        "productName": "Amul",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21 2021",
+        "price": 8.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 32,
+        "productName": "Colgate",
+        "productCode": "TBX-0148",
+        "releaseDate": "June 22 2021",
+        "price": 4.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 33,
+        "productName": "Horlicks",
+        "productCode": "TBX-0028",
+        "releaseDate": "May 27 2020",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 34,
+        "productName": "Amul",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21 2021",
+        "price": 8.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 35,
+        "productName": "Colgate",
+        "productCode": "TBX-0148",
+        "releaseDate": "June 22 2021",
+        "price": 4.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 36,
+        "productName": "Horlicks",
+        "productCode": "TBX-0028",
+        "releaseDate": "May 27 2020",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    },
+    {
+        "productId": 37,
+        "productName": "Amul",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21 2021",
+        "price": 8.9,
+        "starRating": 4.5,
+        "imgUrl": "assets/images/image1.jpg"
+    },
+    {
+        "productId": 38,
+        "productName": "Colgate",
+        "productCode": "TBX-0148",
+        "releaseDate": "June 22 2021",
+        "price": 4.9,
+        "starRating": 3.0,
+        "imgUrl": "assets/images/image2.jpg"
+    },
+    {
+        "productId": 39,
+        "productName": "Horlicks",
+        "productCode": "TBX-0028",
+        "releaseDate": "May 27 2020",
+        "price": 8.3,
+        "starRating": 4.0,
+        "imgUrl": "assets/images/image3.jpg"
+    }
+]

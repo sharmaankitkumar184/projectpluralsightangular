@@ -1,0 +1,85 @@
+
+<div class='card' style="background-image: url('../assets/images/product-backkground.jpg');" >
+    <div class='card-header'>
+        <div class='row' >
+            <h3 class='col-md-12'>{{pageTitle}} 
+            </h3>
+        </div>
+    </div>
+    <div class='card-body'>
+        <div class='row'>
+            <div class='col-md-2' style="color: darkgreen;">Filter by:</div>
+            <div class='col-md-6'>
+                <input type='text' [(ngModel)]='listfilter' />
+            </div>
+        </div>
+        <br>
+        <div class='row' *ngIf='listfilter'>
+            <div class='col-md-6'>
+                <h4 style="color: brown;">Filtered by: {{listfilter}}</h4>
+            </div>
+        </div>
+        <div class='table-responsive'>
+            <table class='table' *ngIf='products.length' matSort (matSortChange)="sortData($event)" >
+                <thead>
+                    <tr>
+                        <th>
+                            <button class='btn btn-primary' (click)='toggleImage()'>
+                                {{showImage ? 'Hide' : 'Show'}}
+                            </button>
+
+                        </th>
+                        <th mat-sort-header="productId">productId</th>
+                        <th mat-sort-header="productName">ProductName</th>
+                        <th mat-sort-header="productCode">ProductCode</th>
+                        <th mat-sort-header="releaseDate">Availability</th>
+                        <th mat-sort-header="price">Price</th>
+                        <th mat-sort-header="starRating">RatingY
+
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let product of filterproduct| paginate : {
+                      itemsPerPage: tableSize,
+                      currentPage: page,
+                      totalItems: count
+                    };'>
+                        <td>
+                            <img *ngIf="showImage" [src]='product.imgUrl' [style.width.px]='height'
+                                [style.margin.px]='margin'>
+                            <!--  style="margin: 2px; width: 50px;" -->
+
+                        </td>
+                        <td>{{product.productId}}</td>
+                        <td> <a style="text-decoration: none;" class="link-info"  [routerLink]="['/productdetails', product.productId]">
+                                {{ product.productName }}
+                            </a></td> 
+                        <td>{{product.productCode|lowercase|convertTospaces:'-'}}</td>
+                        <td>{{product.releaseDate|date:"dd/MM/yyyy"}}</td>
+                        <td>{{product.price|currency:'USD':'symbol':'1.2-2'}}</td>
+                        <td>
+                            <app-star [rating]='product.starRating'
+                            [itemName]='product.productName'
+                            (ratingclicked)='onRatingclick($event)'></app-star>
+                        </td>
+                        <td><a [routerLink]="['/productdelete', product.productId]"  class="link-warning">DELETE</a></td>
+                        <td><a [routerLink]="['/productedit', product.productId]" class="link-primary">EDIT</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="p-2 bd-highlight">
+              <select (change)="tableData($event)" class="custom-select">
+                <option *ngFor="let size of tableSizesArr" [ngValue]="size">
+                  {{ size }}
+                </option>
+              </select>
+            </div>
+            <div class="d-flex justify-content-center">
+              <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">
+              </pagination-controls>
+            </div>
+        </div>
+    </div>
+</div>
+

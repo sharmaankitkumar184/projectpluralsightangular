@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-sm" style="background-color:rgb(144, 226, 144);"  >
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="productlist">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="register">RegisterProduct</a>
+          </li>
+          <li class="nav-item" *ngIf="!loggedin()">
+            <a routerLink="UserRegister" class="nav-link">RegisterUser</a>
+          </li>
+          
+        </ul>
+        
+        <form class="d-flex" *ngIf="loggedin()">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" style="margin:0px 0px 0px 5px"  (click)=" Logoutform()">Logout</button>
+        </form> 
+        <div  *ngIf="loggedin()">
+            <a
+              class="nav-link d-flex align-items-center"
+              href="#"
+              role="button"
+              aria-expanded="false"
+            >
+            
+              <img
+                src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                class="rounded-circle"
+                height="45"
+                alt=""
+                loading="lazy"
+                title=""
+              /> <small style="padding-left: 10px;">Welcome {{username}}</small> 
+            </a>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+ 

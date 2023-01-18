@@ -1,0 +1,40 @@
+<body>
+  <div id="login">
+    <h3 class="text-center text-white pt-5">Login form</h3>
+    <div class="container">
+      <div id="login-row" class="row justify-content-center align-items-center">
+        <div id="login-column" class="col-md-6">
+          <div id="login-box" class="col-md-12">
+            <form id="login-form" class="form" #LoginForm='ngForm' (submit)="Loginform(LoginForm)">
+              <h3 class="text-center text-info">Login</h3>
+              <div class="form-group">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+
+                <input type="email" class="form-control" id="staticEmail" name="Email" value="email@example.com" [(ngModel)]="formModel.Email" required #Email="ngModel" >
+                <div>
+                    <small class="alert-danger"  *ngIf="Email.touched && Email.invalid">Email Id Is Required</small>
+                  </div> 
+              </div>
+              <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+
+                <input type="password" class="form-control" id="inputPassword" name='password' [(ngModel)]="formModel.password" required #password="ngModel">
+                <div>
+                  <small class="alert-danger"  *ngIf="password.touched && password.invalid">Password Is Required</small>
+                </div> 
+              </div>
+              <div class="form-group">
+                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me"
+                      name="remember-me" type="checkbox"></span></label><br>
+                <button type="submit" name="LOGIN" class="btn btn-info btn-md" [disabled]="LoginForm.invalid">LOGIN</button>
+              </div>
+              <div id="register-link" class="text-right">
+                <a routerLink="UserRegister" class="text-info">Register here</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
